@@ -18,6 +18,7 @@ The Product Browser App is a simple mobile application built using Flutter. The 
 
 ## Technical Requirements
 
+
 ### API Integration
 
 - **Mock API**: https://fakestoreapi.com/products.
@@ -30,9 +31,11 @@ The Product Browser App is a simple mobile application built using Flutter. The 
 
 ### App Responsiveness
 
+
 - **Responsive Design**: The app is designed to be responsive across various screen sizes including small, medium, and large devices.
+
 
 ### Installation
 
    ```bash
-   https://github.com/sudiptagupta217/
+  https://github.com/Sudiptagupta217/assignment/blob/main/app-debug.apk
