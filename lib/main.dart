@@ -1,5 +1,3 @@
-// lib/main.dart
-
 import 'package:assignment/ui/home_page.dart';
 import 'package:assignment/ui/state_management/product_provider.dart';
 import 'package:flutter/material.dart';
