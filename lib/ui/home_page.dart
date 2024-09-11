@@ -48,7 +48,7 @@ class HomePageState extends State<HomePage> {
                 }
                 return false;
               },
-              child: ListView.builder(
+              child: ListView.separated(
                 itemCount: productProvider.products.length,
                 itemBuilder: (context, index) {
                   final product = productProvider.products[index];
@@ -59,9 +59,14 @@ class HomePageState extends State<HomePage> {
                           context,
                           MaterialPageRoute(
                             builder: (context) =>
-                                ProductDetailsScreen(product: product),
+                                ProductDetailsScreen(product: product, ),
                           ));
                     },
+                  );
+                },
+                separatorBuilder: (BuildContext context, int index) {
+                  return SizedBox(
+                    height: 15,
                   );
                 },
               ),

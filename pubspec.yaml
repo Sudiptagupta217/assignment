@@ -15,6 +15,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: 
   provider: 
+  flutter_rating_bar:
+  sqflite: 
+  path: 
+
 
 dev_dependencies:
   flutter_test:
